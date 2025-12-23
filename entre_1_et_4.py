@@ -63,4 +63,4 @@ def entre_1_et_4 ():
         moyenne=data_preparation.recalculate_average(st.session_state.sequence,st.session_state.total, points)
         st.write(f"Moyenne : {moyenne}")
         if moyenne > 3+2.5/len(st.session_state.sequence):
-            st.write("Il est fort cet algorithme chatonien !")
+            st.write("Il est fort cet algorithme chatonien ! (Au dessus de 3 points en moyenne c'est une surperformance)")
